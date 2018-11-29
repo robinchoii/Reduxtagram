@@ -3,12 +3,11 @@ import { Link } from 'react-router';
 
 const Main = React.createClass({
     render() {
-        return(
+        return (
             <div>
                 <h1>
                     <Link to='/'>Reduxtagram</Link>
                 </h1>
-                {this.props.childen}
                 {React.cloneElement(this.props.children, this.props)}
             </div>
         )
