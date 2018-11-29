@@ -4,7 +4,14 @@
 
 
 function posts(state=[], action) {
+    console.log('the post will change');
     console.log(state, action);
+
+    // switch(action) {
+    //     if(action == "INCREMENT_LIKES") {
+
+    //     }
+    // }
     return state;
 }
 
