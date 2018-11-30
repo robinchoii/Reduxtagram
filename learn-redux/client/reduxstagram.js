@@ -10,6 +10,7 @@ import App from './components/App';
 import Single from './components/Single';
 import PhotoGrid from './components/PhotoGrid';
 
+//import Provider at the index of your application
 import { Provider } from 'react-redux';
 import store, { history }  from './store';
 
